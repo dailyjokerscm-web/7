@@ -1,35 +1,25 @@
-# Chitchat Python Application Setup Instructions
+# Setup Instructions
 
-## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dailyjokerscm-web/chitchat.git
-   cd chitchat
+   git clone https://github.com/dailyjokerscm-web/7.git
    ```
 
-2. Create a virtual environment:
+2. Navigate to the project directory:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   cd 7
    ```
 
-3. Install the required packages:
+3. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
+
+4. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running the Application
-1. Make sure the virtual environment is activated.
-2. Run the application:
+5. To run the application, execute:
    ```bash
-   python app.py
+   python chitchat_app.py
    ```
 
-3. Open your browser and go to `http://localhost:5000` to access Chitchat.
-
-## Additional Information
-- Make sure to have the necessary permissions to run the application.
-
----
-
-*Document created on 2026-03-03 00:10:13 UTC*
+6. Open your browser and go to `http://localhost:5000` to use the application.
