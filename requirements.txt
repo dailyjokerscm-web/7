@@ -1,2 +1,10 @@
-Pillow==10.1.0
-pyperclip==1.8.2
+# Chatbot Dependencies
+
+numpy
+pandas
+tensorflow
+requests
+nltk
+
+# Other dependencies
+flask
